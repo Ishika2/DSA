@@ -105,5 +105,5 @@ public:
 // size_t type is a base unsigned integer type of C/C++ language. It is the type of the result returned by sizeof operator. The type's size is chosen so that it can store the maximum size of a theoretically possible array of any type. On a 32-bit system size_t will take 32 bits, on a 64-bit one 64 bits.
 
 
-// TC = O(N*N)
-// SC = O(N*N) + O(N)
+// TC = O(N log N)
+// SC = O(N)
