@@ -2,6 +2,9 @@ class Solution {
 public:
     int maxProfit(vector<int>& prices) {
         int n = prices.size();
+        //input = 7 9 8 3 4 5 1
+        //suffixMaxArray = 9 9 8 5 5 5 1 (max value after ith element)
+        //prefixmaxArray = 7 9 9 9 9 9 9 (max value before ith element)
         //vector<int> SuffixMaxArr(n,INT_MIN);
         int SuffixMaxArr[n];// = {INT_MIN};
         //fill(SuffixMaxArr,SuffixMaxArr+n,INT_MIN);
