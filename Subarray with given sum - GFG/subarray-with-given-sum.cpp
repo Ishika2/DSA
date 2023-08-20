@@ -33,8 +33,8 @@ class Solution
             else if(sum < s)
             {
                 r++;
-                if(r >= n)
-                    break;
+                // if(r >= n)
+                //     break;
                 sum += arr[r];
             }
             else if(sum > s)
